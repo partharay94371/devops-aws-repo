@@ -16,3 +16,24 @@ We can use the ‘chmod’ command which stands for ‘change mode’. Using the
 Syntax:
 
 chmod permissions filename
+
+There are 2 ways to use the command –
+
+Absolute mode
+Symbolic mode
+Absolute(Numeric) Mode in Linux
+In this mode, file permissions are not represented as characters but a three-digit octal number.
+
+The table below gives numbers for all for permissions types.
+
+Number	Permission Type	 Symbol
+0	No Permission	  —
+1	Execute	          –x
+2	Write	          -w-
+3	Execute + Write	  -wx
+4	Read	           r–
+5	Read + Execute	  r-x
+6	Read +Write	  rw-
+7	Read + Write +Execute	rwx
+
+Let’s see the chmod permissions command in action.
